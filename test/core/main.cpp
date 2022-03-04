@@ -2,7 +2,7 @@
 #include <SDL.h>
 #include "EventManager.hpp"
 
-// Shut up
+// todo
 bool gameRunning = true;
 // Very precious
 Uint32 USER_EVENT = SDL_RegisterEvents(1);
@@ -46,7 +46,7 @@ int main(int argc, char* argv[]) {
 
 // Initialization of SDL
 
-	std::cout<<"This is console 23 ready for action"<<std::endl;
+	std::cout<<"konzola"<<std::endl;
 	if ( SDL_Init( SDL_INIT_EVERYTHING ) < 0 ) {
 		std::cout << "Error initializing SDL: " << SDL_GetError() << std::endl;
 		system("pause");
